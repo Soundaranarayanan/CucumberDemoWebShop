@@ -34,7 +34,7 @@ public class LoginPageAction {
     }
 
     public void login() {
-        try (FileInputStream fileInput = new FileInputStream("C:\\Users\\admi\\git\\repository50\\DemoWebShop\\src\\test\\resources\\testdata.properties")) {
+        try (FileInputStream fileInput = new FileInputStream("C:\\Users\\admi\\git\\repository51\\DemoWebShop\\src\\test\\resources\\testdata.properties")) {
             Properties prop = new Properties();
             prop.load(fileInput);
             strUserName = prop.getProperty("username");
