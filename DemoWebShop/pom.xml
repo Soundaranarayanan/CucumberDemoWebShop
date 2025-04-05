@@ -75,11 +75,7 @@
 </dependency>
 
 
- <dependency>
- 	<groupId>Cucumberpom</groupId>
- 	<artifactId>CucumberPageObjectModel</artifactId>
- 	<version>0.0.1-SNAPSHOT</version>
- </dependency>
+
   </dependencies>
 
  <build>
