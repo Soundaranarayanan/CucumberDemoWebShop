@@ -2,7 +2,10 @@ package runner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
+import org.testng.annotations.Listeners;
+import utilities.ListenersClass;
 
+@Listeners(ListenersClass.class)
 @CucumberOptions(
         features = "src/test/resources/features", 
         glue = "definitions",
@@ -15,4 +18,3 @@ import io.cucumber.testng.CucumberOptions;
 )
 public class runnerTestNG extends AbstractTestNGCucumberTests {
 }
-//System.setProperty("hudson.model.DirectoryBrowserSupport.CSP","")

@@ -32,6 +32,8 @@ public class LoginPageAction {
     public void clickLogin() {
         loginPageLocators.login.click();
     }
+    
+    
 
     public void login() {
         try (FileInputStream fileInput = new FileInputStream("C:\\Users\\admi\\git\\repository51\\DemoWebShop\\src\\test\\resources\\testdata.properties")) {
